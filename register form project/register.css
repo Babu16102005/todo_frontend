@@ -1,0 +1,53 @@
+input, select, textarea{
+    background: transparent;
+    background-color: transparent;
+    color: #000;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+    padding: 8px 4px;
+    font-size: 16px;
+
+
+}
+input::placeholder {
+    color: #7c7c7c;
+} 
+
+
+table{
+    border-color: rgb(140, 208, 218);
+    border-width: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    color: rgb(140, 208, 218);
+}
+.title {
+    color: rgb(140, 208, 218);
+    font-size: 2em;
+    font-style:italic;
+    margin-bottom: 20px;
+}
+.submit,.del{
+    background-color: rgb(140, 208, 218);
+    color:darkcyan;
+    border-style: solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.6s ease;
+    
+}
+.submit:hover {
+    background-color: darkcyan;
+    color: white;
+
+}
+.submit:active {
+    transform: scale(0.9);
+}

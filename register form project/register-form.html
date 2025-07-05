@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="register.css">
+        
+    
+</head>
+<body class="body">
+    <center>
+        <h1 class="title">STUDENT FORM</h1>
+        <div>
+            <form onsubmit="submitted(event)">
+                <table border="0" cellpadding="10"> 
+                    <tr>
+                        <td ><b >Name</b></td>
+                        <td><input type="text" size="50" id="name" placeholder="enter your name" ></td>
+                    </tr>
+                    <tr>
+                        <td><b>Age</b></td>
+                        <td><input type="text" size="50" id="age" placeholder="enter your Age" ></td>
+                    </tr>
+                    <tr>
+                        <td><b>Course</b></td>
+                        <td>
+                            <select name="Course" id="course" >
+                                <option value="">--Select any which would you like..--</option>
+                                <option value="Java">JAVA</option>
+                                <option value="C">C</option>
+                                <option value="C++">C++</option>
+                                <option value="Python">PYTHON</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Email</b></td>
+                        <td><input type="email" size="50" id="mail" placeholder="enter your valid email ID"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Gender</b></td>
+                        <td>
+                            <input type="radio" name="Gender" value="Male">Male
+                            <input type="radio" name="Gender" value="Female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <button type="submit" class="submit">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div>
+            <table id="form1" border="0" cellspacing="1" cellpadding="10">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Course</th>
+                    <th>Email</th>
+                    <th>Gender</th>
+                    <th>Action</th>
+                </tr>   
+            </table>
+        </div>
+        <video autoplay muted loop id="bgvideo"
+        style="position:fixed; right:0; bottom:0; min-width:100vw; min-height:100vh; z-index:-1; object-fit:cover;">
+        <source src="d:/media/Videos/wed background video.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+</video>
+    </center>
+    <script src="samplejs.js"></script>
+</body>
+</html>
